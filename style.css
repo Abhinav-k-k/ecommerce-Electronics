@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto:wght@300&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+.my_main_nav {
+    background-color: black !important;
+}
+.my_nav{
+    margin-left: auto;
+}
+.my_heading h4{
+    color: white;
+    text-decoration: none;
+}
+#menu ul li a{
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    color: white;
+}
+/* button {
+    color: white(buttontext,white);
+} */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .carousel-caption{
+      top: 40%;
+      transform: translateY(-50%);
+  }
+  .iphone{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+/* .new_heading{
+    text-align: center !important;
+    color: white;
+} */
+.my_heading{
+    text-align: center !important;
+    color: white;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.my_footer{
+    color: white;
+    text-align: center !important;
+}
+.my_items{
+    width:150px;
+    padding-bottom: 1rem;
+}
+.my_items a img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    /* text-decoration: none !important; */
+
+}
+.my_items a {
+    text-decoration: none !important;
+    color: white;
+}
+.my_item_style{
+    width:200px;
+    height: 120px
+}
+.my_item_style img{
+    width: 100%;
+    height: auto;
+
+}
+.item_hr{
+    background-color: white;
+    width: 39rem;
+}
+.checkout_hr{
+    background-color: white;
+    width: 60%;
+}
+.my_item_description{
+    color: white;
+}
+/* .my_item_style button{
+    padding-top: 2rem;
+    justify-content: center;
+} */
+.add_to_cart{
+    justify-content: center;
+}
+.my_item_description h6{
+    font-weight: bold;
+}
+.my_form input{
+    width: 100%;
+}
+.container-fluid{
+    padding-top: 2rem;
+}
+.my_form{
+    padding-bottom: 1rem;
+}
+.my_chekout{
+    color: white;
+}
+.my_text{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 33%
+}
+.my_text a{
+    text-decoration: none;
+    color: white;
+}
+.my_text_Realme{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 10%
+}
+.my_text_Realme a{
+    text-decoration: none;
+    color: white;
+}
+.my_text_Lenovo{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 33%
+}
+.my_text_Lenovo a{
+    text-decoration: none;
+    color: white;
+}
+.my_text_Acer{
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 5%
+}
+.my_text_Acer a{
+    text-decoration: none;
+    color: white;
+}
+/* .my_cart{
+    text-align: center;
+    display: inline;
+} */
+.cart_hr{
+    background: white;
+}
+.my_cart button{
+    width: 9rem;
+}
+
+
+
+
+
+  @media(max-width: 767px){
+    .iphone{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size:15px;
+      }
+      .my_button{
+          width: 4rem;
+          height: 2rem;
+          font-size: 0.6rem;
+      }
+      .carousel-caption{
+        top: 30%;
+        transform: translateY(-50%);
+    }
+    .my_heading{
+        text-align: center !important;
+        color: white;
+        padding-top: 2rem;
+        font-size: 1rem;
+    }
+    .my_text h4{
+        font-size: 1rem;
+    }
+    .my_text button{
+        width: 4rem;
+        height: 2rem;
+        font-size: 0.6rem;
+    }
+    .my_text_Realme h4{
+        font-size: 1rem;
+    }
+    .my_text_Realme button{
+        width: 4rem;
+        height: 2rem;
+        font-size: 0.6rem;
+    }
+    .my_text_Realme{
+        position: absolute;
+        text-align: center;
+        top: 60%;
+        left: 10%
+    }
+    .my_text_Lenovo h4{
+        font-size: 1rem;
+    }
+    .my_text_Lenovo button{
+        width: 4rem;
+        height: 2rem;
+        font-size: 0.6rem;
+    }
+    .my_text_Acer h4{
+        font-size: 1rem;
+    }
+    .my_text_Acer button{
+        width: 4rem;
+        height: 2rem;
+        font-size: 0.6rem;
+    }
+    .my_items{
+        width:450px;
+        padding-bottom: 1rem;
+    }
+    .my_items a img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+        /* text-decoration: none !important; */
+    
+    }
+    .my_item_description{
+        font-size: 15px;
+    }
+    .my_item_description h6{
+        font-size: 15px;
+    }
+    .my_item_description h3{
+        font-size: 20px;
+    }
+    .my_cart button{
+        font-size: 0.8rem;
+        width: 6rem;
+    }
+    
+  }
+
+
+@media(max-width: 991px){
+    .iphone{
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size:20px;
+      }
+      .my_button{
+          width: 5rem;
+          height: 2rem;
+          font-size: 0.7rem;
+      }
+
+} 
