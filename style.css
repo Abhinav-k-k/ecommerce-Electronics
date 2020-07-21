@@ -6,6 +6,9 @@ body{
 .my_main_nav {
     background-color: black !important;
 }
+.my_main_nav a{
+    text-decoration: none;
+}
 .my_nav{
     margin-left: auto;
 }
@@ -13,6 +16,7 @@ body{
     color: white;
     text-decoration: none;
 }
+
 #menu ul li a{
     padding-top: 2rem;
     padding-bottom: 0rem;
